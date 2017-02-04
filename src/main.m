@@ -1,3 +1,6 @@
+addpath(genpath('functions'));
+addpath(genpath('../Images'));
+
 %Read 10 mugshot images
 mug1 = readImg('mugGray1.jpg');
 mug2 = readImg('mugGray2.jpg');
